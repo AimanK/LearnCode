@@ -1,0 +1,42 @@
+body{
+    background: rgb(120, 206, 233);
+    border: solid 5px rgb(0, 203, 74);
+    color: white;
+    font-family: 700 32px/40px Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    text-align: left;
+    margin: 22px;
+    max-width: 700px;
+
+}
+
+header h1{
+    text-align: center;
+}
+
+section img {
+    margin-top: 10%;
+    margin-left: 10%;
+    max-width: 20%;
+    padding-right: 80px;
+    float: right;
+    height: auto;
+
+}
+
+footer{
+    color: rgb(0, 203, 74);
+    text-align: center;
+    
+}
+
+a {
+    color: rgb(0, 203, 74);
+}
+
+li + span {
+    color: grey;
+    font-size: 24px;
+    display: inline;
+    
+}
