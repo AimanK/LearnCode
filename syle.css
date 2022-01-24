@@ -14,6 +14,31 @@ header h1{
     text-align: center;
 }
 
+
+/**
+    Header nav styles
+**/
+nav ul
+{
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding-left: 38%;
+
+}
+
+nav li {
+    padding: 5px;
+}
+
+nav span {
+    color: gray;
+    
+}
+
 section img {
     margin-top: 10%;
     margin-left: 10%;
@@ -39,4 +64,24 @@ li + span {
     font-size: 24px;
     display: inline;
     
+}
+
+
+
+/**
+    Footer styles
+**/
+footer ul {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 40%;
+
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer span {
+    color: gray;
 }
